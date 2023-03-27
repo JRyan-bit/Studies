@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+section.container{
+    background-color: #000;
+    height: 100vh;
+    position: relative;
+    background-image: url(../img/aron-visuals-LSFuPFE9vKE-unsplash.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+div.normalText{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(14, 19, 40,0.5);
+    border-radius: 3px;
+    padding:2%;
+    width: 35vw;
+    text-align: center;
+    color: #fff;
+    font-size: 5vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+section.normalSect{
+    background-color: #0e1328;
+    height: 1vh;
+    padding: 2%;
+    text-align: center;
+    font-size: 3em;
+}
+section#cont2{
+   background-image: url(../img/hans-ott-Td_FzGm4q-M-unsplash.jpg); 
+   background-position: bottom center;
+   height: 75vh;
+}
+section#cont3{
+    background-image: url(../img/joshua-sortino-f3uWi9G-lus-unsplash.jpg);
+    height: 100vh;
+    background-position: center center;
+}
