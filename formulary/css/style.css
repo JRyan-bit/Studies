@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --color1: #000;
+    --color1t: rgba(0, 0, 0, 0.85);
+    --colorlt: #fff;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+body {
+    background-color: #ccc;
+    background-image: url(../img/minh-triet-KTGBkzzE8BM-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+section.formSect {
+    margin-top: 5%;
+    color:var(--colorlt);
+    background-color: var(--color1t);
+    width: 40vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 7px;
+    padding: 3%;
+    font-size: 2em;
+}
+div.lbiptDiv {
+    padding-bottom: 5%;
+}
+div.iptDiv {
+    margin-top: 1%;
+}
+input.changedInput {
+    width: 100%;
+    height:30px;
+    border-radius: 7px;
+    padding-left: 2%;
+}
+#iBirth {
+    text-align: center;
+}
+p {
+    color: #ccc;
+    font-size: 0.8em;
+}
+input#subIpt {
+    padding: 1%;
+    margin-top: 1%;
+    width: 100%;
+    border-radius: 7px;
+    font-weight: bold;
+    color: var(--colorlt);
+    background-color: var(--color1);
+    border: 2px solid var(--colorlt);
+}
+input#subIpt:hover {
+    cursor: pointer;
+}
+input#subIpt:active {
+    color: var(--color1);
+    background-color: var(--colorlt);
+    border: 2px solid var(--color1);
+}
+textarea {
+    width:100%;
+}
+@media(min-width:300px) and (max-width:850px) {
+    section.formSect {
+        margin-top: 5%;
+        color:var(--colorlt);
+        background-color: var(--color1t);
+        width: 60vw;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 7px;
+        padding: 3%;
+        font-size: 1.5em;
+    }
+}
