@@ -42,7 +42,7 @@ input.changedInput {
     width: 100%;
     height:30px;
     border-radius: 7px;
-    padding-left: 2%;
+    padding-left: 1%;
 }
 #iBirth {
     text-align: center;
@@ -85,5 +85,11 @@ textarea {
         border-radius: 7px;
         padding: 3%;
         font-size: 1.5em;
+    }
+    input.changedInput {
+        width: 100%;
+        height:30px;
+        border-radius: 7px;
+        padding-left: 0;
     }
 }
