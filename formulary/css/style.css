@@ -24,28 +24,33 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
 }
 section.formSect {
-    margin-top: 5%;
+    margin: auto;
     color:var(--colorlt);
     background-color: var(--color1t);
     width: 40vw;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     border-radius: 7px;
     padding: 3%;
     font-size: 2em;
 }
 @media(min-width:250px) and (max-width:850px) {
     section.formSect {
-        margin-top: 10%;
+        margin: auto;
         color: var(--colorlt);
         background-color: var(--color1t);
         width: 70vw;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        border-radius: 7px;
+        padding: 3%;
+        font-size: 1.6em;
+        padding-bottom: 5%;
+    }
+}
+@media screen and (orientation: portrait) {
+    section.formSect {
+        margin: auto;
+        color: var(--colorlt);
+        background-color: var(--color1t);
+        width: 70vw;
+        height: 100vh;
         border-radius: 7px;
         padding: 3%;
         font-size: 1.6em;
