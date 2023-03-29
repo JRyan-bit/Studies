@@ -9,61 +9,63 @@
     <title>Form</title>
 </head>
 <body>
-    <section class="formSect">
-        <form action="#" method="post" autocomplete="on">
-            <div class="lbiptDiv">
-                <label for="iName">Name</label>
-                <div class="iptDiv">
-                    <input class="changedInput" type="text" name="name" id="iName" autocomplete="username" required>
-                </div>
-            </div>
-            <div class="lbiptDiv">
-                <label for="iemail">Email</label>
-                <div class="iptDiv">
-                    <input class="changedInput" type="email" name="email" id="iemail" autocomplete="email" required>
-                </div>
-            </div>
-            <div class="lbiptDiv">
-                <label for="iBirth">Date of birth</label>
-                <div class="iptDiv">
-                    <input class="changedInput" type="date" name="birth" id="iBirth" required>
-                </div>
-            </div>
-            <div class="lbiptDiv">
-                <label for="iLang">Most used language <p>(type it or select one from the list)</p></label>
-                <div class="iptDiv">
-                    <input class="changedInput" type="text" list="languages" id="iLang" required>
-                    <datalist id="languages">
-                        <option value="English" selected></option>
-                        <option value="Portuguese" selected></option>
-                        <option value="Spanish" selected></option>
-                    </datalist>
-                </div>
-            </div>
-            <div class="lbiptDiv">
-                <label for="iBirth">Do you practice exercises frequently?</label>
-                <div class="iptDiv">
-                    <div class="lbiptDiv">
-                        <br>
-                        <label for="yes">Yes</label>
-                        <input type="radio" name="y/n" id="yes">
-                    </div>
-                    <div class="lbiptDiv">
-                    <label for="no">No</label>
-                    <input type="radio" name="y/n" id="no">
+    <main>
+        <section class="formSect">
+            <form action="#" method="post" autocomplete="on">
+                <div class="lbiptDiv">
+                    <label for="iName">Name</label>
+                    <div class="iptDiv">
+                        <input class="changedInput" type="text" name="name" id="iName" autocomplete="username" required>
                     </div>
                 </div>
-            </div>
-            <div class="iptDiv">
-                <legend>type the kinds of exercises you do:</legend>
-                <p>(optional)</p>
-                <br>
-                <textarea name="exercises" id="iexercises" cols="0" rows="4"></textarea>
-            </div>
-            <div class="iptDiv">
-                <input type="submit" value="Submit" id="subIpt">
-            </div>
-        </form>
-    </section>
+                <div class="lbiptDiv">
+                    <label for="iemail">Email</label>
+                    <div class="iptDiv">
+                        <input class="changedInput" type="email" name="email" id="iemail" autocomplete="email" required>
+                    </div>
+                </div>
+                <div class="lbiptDiv">
+                    <label for="iBirth">Date of birth</label>
+                    <div class="iptDiv">
+                        <input class="changedInput" type="date" name="birth" id="iBirth" required>
+                    </div>
+                </div>
+                <div class="lbiptDiv">
+                    <label for="iLang">Most used language <p>(type it or select one from the list)</p></label>
+                    <div class="iptDiv">
+                        <input class="changedInput" type="text" list="languages" id="iLang" required>
+                        <datalist id="languages">
+                            <option value="English" selected></option>
+                            <option value="Portuguese" selected></option>
+                            <option value="Spanish" selected></option>
+                        </datalist>
+                    </div>
+                </div>
+                <div class="lbiptDiv">
+                    <label for="iBirth">Do you practice exercises frequently?</label>
+                    <div class="iptDiv">
+                        <div class="lbiptDiv">
+                            <br>
+                            <label for="yes">Yes</label>
+                            <input type="radio" name="y/n" id="yes">
+                        </div>
+                        <div class="lbiptDiv">
+                        <label for="no">No</label>
+                        <input type="radio" name="y/n" id="no">
+                        </div>
+                    </div>
+                </div>
+                <div class="iptDiv">
+                    <legend>type the kinds of exercises you do:</legend>
+                    <p>(optional)</p>
+                    <br>
+                    <textarea name="exercises" id="iexercises" cols="0" rows="4"></textarea>
+                </div>
+                <div class="iptDiv">
+                    <input type="submit" value="Submit" id="subIpt">
+                </div>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
