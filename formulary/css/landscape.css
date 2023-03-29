@@ -1,0 +1,13 @@
+section.formSect {
+    color:red;
+    background-color: var(--color1t);
+    width: 40vw;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 7px;
+    padding: 3%;
+    font-size: 2em;
+}

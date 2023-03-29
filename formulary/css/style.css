@@ -36,6 +36,22 @@ section.formSect {
     padding: 3%;
     font-size: 2em;
 }
+@media(min-width:250px) and (max-width:850px) {
+    section.formSect {
+        margin-top: 10%;
+        color: var(--colorlt);
+        background-color: var(--color1t);
+        width: 70vw;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 7px;
+        padding: 3%;
+        font-size: 1.6em;
+        padding-bottom: 5%;
+    }
+}
 div.lbiptDiv {
     padding-bottom: 5%;
 }
