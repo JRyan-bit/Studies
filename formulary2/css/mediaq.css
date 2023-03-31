@@ -1,0 +1,29 @@
+/* section width maximized */
+@media screen and (min-width:600px) {
+    section#formSect {
+        max-width: 500px;
+    }
+}
+/* landscape */
+@media screen and (orientation:landscape) {
+    section#formSect {
+        height: 60%;
+        min-height: 300px;
+    }
+    input[type="submit"] {
+        margin-top: 10%;
+    }
+}
+/* desktop */
+@media screen and (min-width:1025px) and (max-width:1200px) {
+    section#formSect {
+        height: 50%;
+    }
+}
+/* larger screens */
+@media screen and (min-width:1201px) {
+    section#formSect {
+        height: 30%;
+    }
+}
+
