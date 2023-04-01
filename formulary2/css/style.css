@@ -59,7 +59,6 @@ div.oneiptDiv input {
 }
 input[type="submit"] {
     margin-top: 25px;
-    position: sticky;
 
     outline: 1px solid #fff;
     background-color: #fff;
