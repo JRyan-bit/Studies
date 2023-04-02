@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #000;
+    color: #fff;
+    height: 60px;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    max-width: 1180px;
+    margin: auto;
+
+}
+@media screen and (max-width:576px) {
+    header {
+        padding: 0 15px;
+    }
+    header div.container {
+        justify-content: center;
+    }
+    section {
+        padding: 0 15px;
+    }
+    div.container {
+        max-width: 540px;
+    }
+    header nav {
+        display: none;
+    }
+
+}
