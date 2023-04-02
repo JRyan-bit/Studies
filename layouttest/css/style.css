@@ -8,13 +8,16 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    
+    position: relative;
+    min-height: 100vh;
 }
 
 header {
     position: fixed;
     background-color: #000;
     color: #fff;
-    padding: 15px 15px;
+    padding: 15px;
     height: 60px;
     width: 100%;
 }
@@ -71,6 +74,27 @@ div.hero-text {
     width: 100%;
 }
 
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+}
+
+div.gridContainer {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 75px;
+    row-gap: 25px;
+}
+
+footer div.container {
+    justify-content: flex-start;
+}
+
 @media screen and (min-width: 576px) {
     header menu {
         display: block;
@@ -80,3 +104,4 @@ div.hero-text {
         justify-content: space-between;
     }
 }
+
