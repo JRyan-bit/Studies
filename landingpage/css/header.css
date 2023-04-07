@@ -1,0 +1,55 @@
+/* mobile header */
+
+header div.content-wrapper {
+    display: grid;
+    justify-items: center;
+}
+
+header {
+    padding: 15px;
+    padding-bottom: 30px;
+    background: var(--color2);
+    width: 100vw;
+    text-align: center;
+}
+
+header h1 {
+    background: -webkit-linear-gradient(180deg ,var(--color3), var(--color4), var(--color5));
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    justify-self: center;
+
+    color: transparent;
+    font-size: 4rem;
+    
+}
+
+header h2 {
+    color: #fff;
+    font-size: 3rem;
+    justify-self: center;
+}
+
+nav {
+    margin-top: 20px
+}
+
+header a {
+    text-decoration: none;
+    font-size: 2rem;
+
+    color: #000;
+    background-color: #fff;
+
+    padding: 8px 15px;
+
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+header a:hover {
+    background-color: #fff;
+    color: #000;
+}

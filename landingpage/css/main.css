@@ -1,0 +1,32 @@
+main {
+    color: #000;
+    font-size: 1.2rem;
+    padding: 15px;
+    background-color: #fff;
+}
+
+main div.content-wrapper {
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+img.icon {
+    width: 60px;
+}
+
+section.container {
+    display: grid;
+    gap: 12px;
+}
+
+article.gArticle {
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+
+    width: 75%;
+
+}

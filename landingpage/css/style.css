@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* mobile first */
+
+:root {
+    /* color pallete */
+    --color1: #8C8C8C;
+    --color2: #1f1f1f;
+    --color3: #02735E;
+    --color4: #038C3E;
+    --color5: #0CF25D;
+}
+
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+div#gridDiv {
+    /* pancake stack layout */
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+    justify-content: center;
+    justify-items: center;
+    gap: 5px;
+
+    min-height: 100vh;
+}
+
+div.content-wrapper {
+    max-width: 1000px;
+    margin: auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
