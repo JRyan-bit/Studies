@@ -1,11 +1,11 @@
 footer {
     color: #fff;
     padding: 15px;
-    background-color: var(--color2);
+    background-color: #1f1f1f;
     width: 100%;
 }
 
-footer div.content-wrapper {
+footer div.content-wrapper { 
     display: grid;
     gap: 10px;
     max-width: 1180px;
