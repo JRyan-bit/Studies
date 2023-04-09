@@ -30,7 +30,4 @@ TV and Extra Large Screens – 1201px and more
         display: flex;
         gap: 250px;
     }
-    footer div.wrapFoot {
-        gap: 60px;
-    }
 }
