@@ -5,10 +5,12 @@ footer {
     width: 100%;
 }
 
-footer div.content-wrapper { 
-    display: grid;
-    gap: 10px;
-    max-width: 1180px;
+div.wrapFoot { 
+    max-width: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 footer h2 {

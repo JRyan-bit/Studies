@@ -24,12 +24,12 @@ div#gridDiv {
     /* pancake stack layout */
     display: grid;
     grid-template-rows: auto 1fr auto;
-    grid-template-columns: 100%;
     justify-content: center;
     justify-items: center;
     gap: 5px;
 
     min-height: 100vh;
+    min-width: 100vw;
 }
 
 div.content-wrapper {

@@ -12,13 +12,25 @@ TV and Extra Large Screens – 1201px and more
 @media screen and (min-width: 600px){
     main div.content-wrapper {
         gap: 30px;
-        justify-items: center;
     }
     section.container {
         display: flex;
-        gap: 60px;
+        gap: 50px;
     }
-    footer div.content-wrapper {
+    footer div.wrapFoot {
+        flex-wrap: nowrap;
+        height: 100%;
+    }
+}
+
+/* Laptops */
+
+@media screen and (min-width: 769px) {
+    section.container {
         display: flex;
+        gap: 250px;
+    }
+    footer div.wrapFoot {
+        gap: 60px;
     }
 }

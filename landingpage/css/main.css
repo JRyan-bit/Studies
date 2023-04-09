@@ -28,5 +28,11 @@ article.gArticle {
     align-items: center;
 
     width: 75%;
+}
 
+section.formSect {
+    background-color: #1f1f1f;
+    color: #fff;
+    width: 100vw;
+    padding: 15px;
 }
